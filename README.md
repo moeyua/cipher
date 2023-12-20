@@ -6,7 +6,7 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-_description_
+Cipher can create strong, unique encryption passwords.
 
 > **Note**:
 > Replace `@moeyua/cipher`, `_description_` and `moeyua` globally to use this template.
