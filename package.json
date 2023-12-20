@@ -46,7 +46,9 @@
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "typecheck": "tsc --noEmit",
-    "prepare": "simple-git-hooks"
+    "prepare": "simple-git-hooks",
+    "template-add": "git remote add template https://github.com/moeyua/starter-ts.git",
+    "template-update": "git pull template master && git merge template master --allow-unrelated-histories"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.4.0",
