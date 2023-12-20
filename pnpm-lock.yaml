@@ -45,6 +45,18 @@ importers:
         specifier: ^5.0.6
         version: 5.0.10(@types/node@20.10.5)
 
+  playground:
+    devDependencies:
+      '@moeyua/cipher':
+        specifier: workspace:^
+        version: link:..
+      typescript:
+        specifier: ^5.2.2
+        version: 5.3.3
+      vite:
+        specifier: ^5.0.8
+        version: 5.0.10(@types/node@20.10.5)
+
 packages:
 
   /@aashutoshrathi/word-wrap@1.2.6:
