@@ -40,7 +40,7 @@
   ],
   "scripts": {
     "build": "unbuild",
-    "dev": "vite",
+    "dev": "unbuild --stub",
     "lint": "eslint .",
     "prepublishOnly": "pnpm build",
     "release": "bumpp && npm publish",
