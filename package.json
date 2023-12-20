@@ -1,17 +1,17 @@
 {
-  "name": "@moeyua/starter-ts",
+  "name": "@moeyua/cipher",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "packageManager": "pnpm@8.11.0",
   "description": "__description__",
   "author": "Moeyua <moeyua13@icloud.com>",
   "license": "MIT",
-  "homepage": "https://github.com/moeyua/starter-ts#readme",
+  "homepage": "https://github.com/moeyua/cipher#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moeyua/starter-ts.git"
+    "url": "git+https://github.com/moeyua/cipher.git"
   },
-  "bugs": "https://github.com/moeyua/starter-ts/issues",
+  "bugs": "https://github.com/moeyua/cipher/issues",
   "keywords": [],
   "sideEffects": false,
   "publishConfig": {
