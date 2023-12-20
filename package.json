@@ -1,17 +1,17 @@
 {
-  "name": "@moeyua/starter-ts",
+  "name": "_package_",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.11.0",
-  "description": "__description__",
+  "description": "_description_",
   "author": "Moeyua <moeyua13@icloud.com>",
   "license": "MIT",
-  "homepage": "https://github.com/moeyua/starter-ts#readme",
+  "homepage": "https://github.com/moeyua/_project_#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moeyua/starter-ts.git"
+    "url": "git+https://github.com/moeyua/_project_.git"
   },
-  "bugs": "https://github.com/moeyua/starter-ts/issues",
+  "bugs": "https://github.com/moeyua/_project_/issues",
   "keywords": [],
   "sideEffects": false,
   "publishConfig": {
@@ -47,7 +47,7 @@
     "start": "esno src/index.ts",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks",
-    "template-add": "git remote add template https://github.com/moeyua/starter-ts.git",
+    "template-add": "git remote add template https://github.com/moeyua/_project_.git",
     "template-update": "git pull template master && git merge template master --allow-unrelated-histories"
   },
   "devDependencies": {
