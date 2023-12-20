@@ -1,3 +1,13 @@
+// const DIGITS = '0123456789'
+
+// const CAPITAL_LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+// const SMALL_LETTERS = 'abcdefghijklmnopqrstuvwxyz'
+
+const SAFE_CHARSET = '!#$%&()*+,-.23456789:;<=>?@'
+  + 'ABCDEFGHIJKLMNPQRSTUVWXY_'
+  + 'abcdefghijkmnpqrstuvwxy'
+
 /*
    * Pool of cryptographically secure random bytes retrieved by
    * window.crypto.getRandomValues().
@@ -11,9 +21,9 @@ let random_pool_next = random_pool.length
 
 /**
  * Generates and displays the password.
- * @param complexity number 1 ~ 256
+ * @param complexity number 1 ~ 256 bits
  */
-export function generate(complexity: number, random_chars_text: string) {
+export function generate(complexity: number = 49, random_chars_text: string = SAFE_CHARSET) {
   // Determines symbols to use:
   const symbols = parseCharacterSymbols(random_chars_text)
 
