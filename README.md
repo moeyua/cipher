@@ -8,9 +8,6 @@
 
 Cipher can create strong, unique encryption passwords.
 
-> **Note**:
-> Replace `@moeyua/cipher`, `_description_` and `moeyua` globally to use this template.
-
 ## License
 
 [MIT](./LICENSE) License © 2023-PRESENT [Moeyua](https://github.com/moeyua)
